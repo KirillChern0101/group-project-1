@@ -1,0 +1,72 @@
+<!-- REVIEWS -->
+<section class="reviews">
+  <div class="container">
+    <h2 class="reviews-title" id="chocolate_is_loved"><span class="rev-choko-title">CHOCOLATE</span> IS LOVED</h2>
+    <ul class="reviews-list">
+      <li class="reviews-item">
+        <img srcset="../img/desktop-img/photo-1-2x.png 2x" src="./img/desktop-img/photo-1-1x.png" class="review-img"
+          alt="Victoria Dobrzhanska" width="80" height="80" />
+        <h3 class="reviews-subject">Victoria Dobrzhanska</h3>
+        <p class="reviews-text">
+          I love this chocolate bar. Perfect combination of light crispy
+          wafer, covered in a thin layer chocolate.
+        </p>
+      </li>
+      <li class="reviews-item rev-item-two">
+        <img srcset="../img/desktop-img/photo-2-2x.png 2x" src="./img/desktop-img/photo-2-1x.png" class="review-img"
+          alt="Nazar Babenko" width="80" height="80" />
+        <h3 class="reviews-subject">Nazar Babenko</h3>
+        <p class="reviews-text">
+          This chocolate confection is a delight! A delight! The wafer
+          is light and crisp, the hazelnut cream is smooth, and the
+          chocolate is good.
+        </p>
+      </li>
+      <li class="reviews-item rev-item-three">
+        <img srcset="../img/desktop-img/photo-3-2x.png 2x" src="./img/desktop-img/photo-3-1x.png" alt="Olena Kampusch"
+          class="review-img" width="80" height="80" />
+        <h3 class="reviews-subject">Olena Kampusch</h3>
+        <p class="reviews-text">
+          Chocolate is a family favourite treat. Love the delicious
+          smooth chocolate and the creaminess inside. The wafer is soft
+          but crunchy.
+        </p>
+      </li>
+    </ul>
+    <button type="button" data-modal-open-rev  class="review-button" >Leave a review</button>
+  </div>
+  <div class="backdrop is-hidden" data-modal-rev>
+    <div class="modal-container">
+        <button type="button" data-modal-close-rev class="modal-close">
+            <svg class="close-modal-icon" width="24" height="24">
+                <use href="./img/sprait.svg#mob-menu-close"></use>
+            </svg>
+        </button>
+        <h2 class="modal-main-title">LEAVE A REVIEW ABOUT
+            <span class="text-span">OUR CHOCOLATE</span>
+        </h2>
+        <form class="modal-form">
+            <input type="text" id="text" class="form-input form-input-rev" name="name" required placeholder="Name" />
+
+            <input type="email" id="email" class="form-input form-input-rev" name="email" required
+                placeholder="Enter your email" />
+
+            <label for="tel" class="form-label">
+                <span class="form-label-tel">+380</span>
+                <span class="tel-form">
+                    <input type="tel" id="tel" class="form-input tel-input reviews-input-tel " name="phone" required
+                        placeholder="Phone number" />
+                    <svg class="form-icon" width="24" height="24">
+                        <use href="./img/sprait.svg#Ukraine"></use>
+                    </svg>
+                </span>
+            </label>
+
+            <textarea name="comment" class="text-area" placeholder="Enter text" id="comment"></textarea>
+
+            <button type="submit" class="modal-send-button">Send</button>
+        </form>
+    </div>
+</div>
+  </section>  
+  

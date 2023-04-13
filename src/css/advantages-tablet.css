@@ -1,0 +1,114 @@
+@media screen and (min-width: 768px) {
+  .adv-section {
+    padding-top: 50px;
+    padding-bottom: 50px;
+  }
+  .advantages-list {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    gap: 32px;
+    
+  }
+  .advantages-item {
+    flex-basis: calc((100% - 32px) / 2);
+  }
+  .advantages-text {
+    width: 308px;
+    margin-bottom: 0;
+  }
+
+  .backdrop-buy {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    height: 100%;
+  }
+  .modal-buy {
+    position: absolute;
+    top: 85%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    max-width: 609px;
+    min-height: 1058px;
+    background-color: #fafafa;
+    border-radius: 15px;
+    padding: 48px;
+    }
+    .modal-buy-title {
+        font-size: 24px;
+        line-height: 1.17;
+    }
+    .modal-buy-mobile {
+      display: flex;
+      flex-wrap: wrap;
+      /* flex-direction: row; */
+      justify-content: space-around;
+    }
+    .modal-buy-list {
+      width: 513px;
+      height: 196px;
+      display: flex;
+      flex-direction: row;
+      align-items: center;
+      padding: 0px;
+      gap: 16px;
+      margin-bottom: 40px;
+      margin-right: 0;
+    }
+    .modal-buy-card {
+        width: 160px;
+        height: 196px;
+        margin-right: 0;
+    }
+    .modal-buy-img {
+      margin: 24px 20px 20px 14px;
+      width: 100%;
+      height: 107px;
+    }
+    .modal-buy-img-dark {
+      margin: 20px 20px 20px 14px;
+      width: 100%;
+      height: 111px;
+    }
+    .buy-border-card {
+        width: 96px;
+        height: 33px;
+        margin-top: 0;
+        margin-right: 0;
+    }
+    .buy-border-text {
+      padding-top: 8px;
+      padding-bottom: 8px;
+    }
+    .modal-form-buy {
+        display: flex;
+        flex-flow: row;
+        column-gap: 21px;
+    }
+    .modal-buy-form {
+      width: 513px;
+    }
+    .modal-buy-input,
+    .modal-buy-input-info {
+      width: 100%;
+      height: 66px;
+    }
+    .modal-buy-input-phone {
+      width: 340px;
+      padding-left: 177px;
+    }
+    .modal-buy-input-icon {
+      left: 24px;
+    }
+    .modal-span-input {
+      left: 74px;
+    }
+    .modal-buy-comment {
+      width: 100%;
+    }
+    .modal-buy-btn {
+        width: 133px;
+        height: 45px;
+    }
+}

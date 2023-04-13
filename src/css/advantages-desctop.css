@@ -1,0 +1,36 @@
+@media screen and (min-width: 1200px) {
+    .adv-section {
+        padding-top: 50px;
+        padding-bottom: 50px;
+    }
+    .advantages-list {
+        display: flex;
+        flex-wrap: nowrap;
+        column-gap: 70px;
+    }
+    .adv-line {
+        position: relative;
+    }
+    .adv-line::before {
+        content: '';
+        width: 124px;
+        height: 0px;
+        position: absolute;
+        top: 110px;
+        left: 267px;
+        border: 1px solid rgba(255, 255, 255, 0.5);
+        transform: rotate(90deg);
+    }
+
+    .modal-buy {
+    position: absolute;
+    top: 80%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    max-width: 609px;
+    min-height: 1058px;
+    background-color: #fafafa;
+    border-radius: 15px;
+    padding: 48px;
+}
+}
